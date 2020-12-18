@@ -56,7 +56,7 @@ li {
     overflow: hidden;
 }
 
-.bigCard, .smallCard, .smallBottom {
+.mainCard, .smallCards, .lower-cards {
     vertical-align: top;
     display: inline-block;
     margin: 0px;
@@ -69,7 +69,7 @@ img {
     margin: 0px 0px -10px 0px;
 }
 
-.smallCard {
+.smallCards {
     overflow: hidden;
     margin-left: 20px;
     width: 375px;
@@ -78,7 +78,7 @@ img {
     vertical-align: top;
 }
 
-.smallCard img {
+.smallCards img {
     width: 190px;
 }
 
@@ -88,7 +88,7 @@ img {
     background-color: lightcoral;
 }
 
-.smallCardText, .smallCardText h1 {
+.smallCardsText, .smallCardsText h1 {
     vertical-align: top;
     font-size: larger;
     padding: 0px;
@@ -98,16 +98,16 @@ img {
     background-color: skyblue;
 }
 
-.sideCards {
+.card {
     vertical-align: baseline;
     display: inline-block;
 }
-.smallBottom {
+.lower-cards {
     margin: 50px;
     background-color: burlywood;
 }
 
-.smallBottom, .smallBottom img, .smallBottomText p, .smallBottomText {
+.lower-cards, .lower-cards img, .lower-cards-Text p, .lower-cards-Text {
     width: 300px;
     text-align: left;
 }
@@ -133,7 +133,7 @@ img {
     background-color: yellowgreen;
 }
 
-.FeaturedPokemons, .FeaturedPokemons .smallBottomText {
+.FeaturedPokemons, .FeaturedPokemons .lower-cards-Text {
     color: white;
     position: relative;
     background-color: #333;
@@ -165,7 +165,7 @@ img {
 .FeaturedPokemons img {
     background-color: #777;
 }
-.FeaturedPokemons .smallBottom {
+.FeaturedPokemons .lower-cards {
     background-color: #333;
 }
 .footer{
@@ -189,4 +189,19 @@ img {
     display: inline-block;
     width: 32%;
     border-right: 3px solid black;
+}
+.LoginCard{
+    position: fixed;
+    z-index: 2;
+    top: 30%;
+    border: 3px solid black;
+    margin: -10px;
+    padding: 3px;
+    background-color: rgb(47, 187, 77);
+}
+.LoginCard h1{
+    color: #eee;
+    background-color: #333;
+    margin: -4px;
+    padding: -3px;
 }
