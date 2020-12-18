@@ -1,0 +1,192 @@
+
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.top {
+    background-color: #eee;
+    text-align: center;
+    box-shadow: 2px 2px #aaa;
+}
+
+.topLogos li {
+    padding: 20px 10px 15px 10px;
+    margin: -2px;
+    border: 1px solid #ccc;
+}
+
+.topAds {
+    margin: 0px;
+    padding: 5px;
+}
+
+.Menu {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.Menu li {
+    vertical-align: top;
+    height: 50px;
+    padding: 15px 25px;
+    margin-left: -4px;
+    border-bottom: 5px solid red;
+}
+
+.Menu li:hover {
+    border-bottom: 3px solid red;
+}
+
+.Menu #selected {
+    background-color: rgb(141, 140, 140);
+}
+
+.Main {
+    text-align: center;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.bigCard, .smallCard, .smallBottom {
+    vertical-align: top;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 578px;
+}
+
+img {
+    padding: 0px;
+    margin: 0px 0px -10px 0px;
+}
+
+.smallCard {
+    overflow: hidden;
+    margin-left: 20px;
+    width: 375px;
+    background-color: skyblue;
+    text-align: left;
+    vertical-align: top;
+}
+
+.smallCard img {
+    width: 190px;
+}
+
+.centerTextForImage {
+    padding-top: 15px;
+    color: white;
+    background-color: lightcoral;
+}
+
+.smallCardText, .smallCardText h1 {
+    vertical-align: top;
+    font-size: larger;
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+    display: inline-block;
+    background-color: skyblue;
+}
+
+.sideCards {
+    vertical-align: baseline;
+    display: inline-block;
+}
+.smallBottom {
+    margin: 50px;
+    background-color: burlywood;
+}
+
+.smallBottom, .smallBottom img, .smallBottomText p, .smallBottomText {
+    width: 300px;
+    text-align: left;
+}
+
+#c1 {
+    background-color: cadetblue;
+}
+
+#c2 {
+    background-color: yellowgreen;
+}
+
+#c3 {
+    background-color: mediumaquamarine;
+}
+#c4 {
+    background-color: chocolate;
+}
+#c5 {
+    background-color: white;
+}
+#c6 {
+    background-color: yellowgreen;
+}
+
+.FeaturedPokemons, .FeaturedPokemons .smallBottomText {
+    color: white;
+    position: relative;
+    background-color: #333;
+    padding: 0px;
+    text-align: center;
+}
+
+.FeaturedPokemons {
+    margin-bottom: 100px;
+}
+
+.Heading {
+    background-color: #333;
+    position: absolute;
+    left: 100px;
+    top: -50px;
+}
+
+.FootButton{
+    background-color: #333;
+    position: absolute;
+    right: 100px;
+    bottom: -80px;
+}
+.FootButton h2{
+    margin: 5px;
+    padding: 10px;
+}
+.FeaturedPokemons img {
+    background-color: #777;
+}
+.FeaturedPokemons .smallBottom {
+    background-color: #333;
+}
+.footer{
+    vertical-align: top;
+    text-align: left;
+    padding: 100px;
+    color: #eee;
+    background-color: #222;
+}
+.footer ul{
+    margin: 30px;
+    list-style-type:disc;
+    display: block;
+}
+.left li, .right li{
+    padding-left: 20px;
+    display: block;
+}
+.left,.mid,.right{
+    vertical-align: top;
+    display: inline-block;
+    width: 32%;
+    border-right: 3px solid black;
+}
