@@ -44,6 +44,7 @@ li {
 
 .Menu li:hover {
     border-bottom: 3px solid red;
+    background-color: #aaa;
 }
 
 .Menu #selected {
